@@ -16,3 +16,14 @@ if spam < 5:
     spam = + 1
 else:
     print("What??")
+
+
+while True:
+    print('Please tell me your name.(*lowercase*only*)')
+    name = input(">")
+    if name.islower():
+        print(f"Your name is lowercase:{name}")
+        break
+    else:
+        print(f"Please try again.")
+        continue
